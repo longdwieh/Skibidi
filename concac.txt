@@ -12109,7 +12109,7 @@ local Dora = {
     ["Berries"] = "https://discord.com/api/webhooks/1428671568304668736/gYdB91GbUbx6Yome5h9Xp6JNJjUtUHjpDAjsQALUW83Oiaf2US-3S0uAc2_UQdxXHQna",
     ["Fruit"] = "https://discord.com/api/webhooks/1428671567637774387/rJG818t0cNXKjS0kXl3N_eec8bO_vLfEn8tWVHw3EhJSDiEBdjfxpkG2H-3dNSXQpOR2",
     ["Low Player"] = "https://discord.com/api/webhooks/1428671566035816448/ag1Y730cD93HHOX1SI078DFgeH4T3zXlPTfvAZ3ZTetBjOpPNqtYyEPh2M8I5PoB_Vdc",
-    ["Elite Hunter"] = "https://discord.com/api/webhooks/1428610020400037958/ZRwOJLd9ReRz4ifUqRKWz2DOP8w66hHCreCl05EmZQNk0jEiZGOeACSZiUsyq5q-h4r7",
+    ["Elite Hunter"] = "https://discord.com/api/webhooks/1428610020400037958/ZRwOJLd9ReRz4ifUqRKWz2DOP8w66hHCreCl05EmZQNk0jEiZGOeACSZiUsyq5q-h4r7"
 }
 
 local Son = {
