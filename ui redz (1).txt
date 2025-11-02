@@ -1,0 +1,39 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/UiRedzV5/refs/heads/main/DemoUi.lua"))();
+
+   local Windows = redzlib:MakeWindow({
+    Title = "longdeptrai Hub",
+    SubTitle = "By Longdeptrai,
+    SaveFolder = "Blox Fruits.lua"
+})
+Windows:AddMinimizeButton({
+  Button = { Image = "rbxassetid://111367887827717", BackgroundTransparency = 0 },
+  Corner = { CornerRadius = UDim.new(0, 4) }
+})
+
+local Info = Windows:MakeTab({"Discord","Info"})
+local Farm = Windows:MakeTab({"Tab Farming","home"})
+local Setting = Window:MakeTab({"Setting Farm","sliders"})
+local Quests = Window:MakeTab({"Farming Oder",sword"})
+local SeaEvent = Window:makeTab({"Auto Farm Sea Event","anchor"})
+local Melee = Window:MakeTab({"Get Item","loader"})
+local Mirage = Window:MakeTab({"Race V4","flag"})
+local dragon = Window:MakeTab({"Dragon Dojo","layers"})
+local Prehistoric = Window:MakeTab({"Prehistoric Island",tent"})
+local Players = Window:MakeTab({"players","tele"})
+
+Tab2:AddToggle({
+    Name = "Auto Farm Level",
+    Default = false,
+    Callback = function(v)
+        _G.AutoFarm_Level = v
+(getgenv()).Load();
+if game.PlaceId == 2753915549 then
+	World1 = true;
+elseif game.PlaceId == 4442272183 then
+	World2 = true;
+elseif game.PlaceId == 7449423635 then
+	World3 = true;
+end;
+function CheckQuest()
+    end
+})
