@@ -193,7 +193,7 @@ local S = function(M)
 		local S = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[2]);
 		local U = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[3]);
 		local b = p .. ("," .. (S .. ("," .. U)));
-		R.Text = "<font color=\"rgb(" .. (b .. (")\">Gay Hub</font> " .. G.TitleNameNoti));
+		R.Text = "<font color=\"rgb(" .. (b .. (")\">Long Béo Ú Hub</font> " .. G.TitleNameNoti));
 		R.Name = "TextLabelNoti";
 		R.Parent = s;
 		R.BackgroundColor3 = Color3.fromRGB(230, 230, 230);
@@ -327,7 +327,7 @@ function w.CreateMain(M)
 	local l = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[2]);
 	local o = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[3]);
 	local J = a .. ("," .. (l .. ("," .. o)));
-	t.Text = "<font color=\"rgb(" .. (J .. ")\">Gay Hub </font> : Blox Fruits");
+	t.Text = "<font color=\"rgb(" .. (J .. ")\">Long Béo Ú Hub </font> : Blox Fruits");
 	c = Instance.new("ImageLabel");
 	c.Name = "MainContainer";
 	c.Parent = P;
@@ -390,7 +390,7 @@ function w.CreateMain(M)
 	local z = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[2]);
 	local x = tostring((r.Getcolor(G.UIColor["Title Text Color"]))[3]);
 	local d = k .. ("," .. (z .. ("," .. x)));
-	t.Text = "<font color=\"rgb(" .. (d .. ")\">Gay Hub </font> : Blox Fruits");
+	t.Text = "<font color=\"rgb(" .. (d .. ")\">Long Béo Ú Hub </font> : Blox Fruits");
 	i.Name = "Background1";
 	i.Parent = n;
 	i.Position = UDim2.new(0, 5, 0, 0);
